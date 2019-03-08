@@ -1,0 +1,39 @@
+
+test_create_manager: test 1, manager = \, {
+  "id": "ok1",
+  "last_name": "Obiwan",
+  "first_name": "Kenobi",
+  "email": "ow@jedi.org"
+}
+Printing a response.
+HTTP status code:  500
+Response headers: 
+ {
+  "Content-Type": "text/plain; charset=utf-8",
+  "Content-Length": "21",
+  "Server": "Werkzeug/0.14.1 Python/3.7.1",
+  "Date": "Sun, 03 Mar 2019 13:28:40 GMT"
+}
+Text body: 
+ Internal server error
+
+test_create_manager: test 2 retrieving created manager.
+No link header returned.
+
+test_create_manager: test 1, creating duplicate = \, {
+  "id": "ok1",
+  "last_name": "Obiwan",
+  "first_name": "Kenobi",
+  "email": "ow@jedi.org"
+}
+Printing a response.
+HTTP status code:  500
+Response headers: 
+ {
+  "Content-Type": "text/plain; charset=utf-8",
+  "Content-Length": "21",
+  "Server": "Werkzeug/0.14.1 Python/3.7.1",
+  "Date": "Sun, 03 Mar 2019 13:28:40 GMT"
+}
+Text body: 
+ Internal server error

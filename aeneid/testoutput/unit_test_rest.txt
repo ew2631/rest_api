@@ -1,0 +1,27 @@
+
+test_update_manager:
+Printing a response.
+HTTP status code:  200
+Response headers: 
+ {
+  "Content-Type": "text/plain; charset=utf-8",
+  "Content-Length": "3",
+  "Server": "Werkzeug/0.14.1 Python/3.7.1",
+  "Date": "Tue, 05 Mar 2019 21:24:32 GMT"
+}
+Text body: 
+ OK.
+
+test_update_manager:
+test_update_manager: get result = 
+Printing a response.
+HTTP status code:  404
+Response headers: 
+ {
+  "Content-Type": "text/plain; charset=utf-8",
+  "Content-Length": "10",
+  "Server": "Werkzeug/0.14.1 Python/3.7.1",
+  "Date": "Tue, 05 Mar 2019 21:24:34 GMT"
+}
+Text body: 
+ NOT FOUND 
